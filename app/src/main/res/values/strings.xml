@@ -1,8 +1,14 @@
 <resources>
+    <!-- All text and variables will be changed here -->
     <string name="app_name">WildSideGaming</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    
+    <string name="Start_up_text">Thank you for downloading the WildSideGaming App</string>
+    <string name="username">Guest User</string>
+    <string name="useremail">guest@email.com</string>
+    <string name="userimage">@android:drawable/sym_def_app_icon </string>
 </resources>
