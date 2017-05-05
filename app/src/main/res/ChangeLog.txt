@@ -1,0 +1,4 @@
+v.0.0.1 - 5/5/17
+
+Changed text that was a string to a reference link, so customer can easily chnage text in app
+Also, found where the color references are and what parts they change
