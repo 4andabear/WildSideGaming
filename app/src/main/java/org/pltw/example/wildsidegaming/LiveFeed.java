@@ -2,20 +2,22 @@ package org.pltw.example.wildsidegaming;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.webkit.WebView;
 
 /**
  * Created by nshunk on 5/8/2017.
  */
 
-public abstract class LiveFeed extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class LiveFeed extends Fragment {
 
 @Override
-protected void onCreate(Bundle savedInstanceState) {
+public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -28,6 +30,11 @@ protected void onCreate(Bundle savedInstanceState) {
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+        navigationView.setNavigationItemSelectedListener((NavigationView.OnNavigationItemSelectedListener) this);
+
+        WebView webView = new WebView(this);
+        setContentView(webView);
+        // set webpage that contains video feed
+        webView.loadUrl("http://twitch.tv/time_of_chaos");
         }
 }

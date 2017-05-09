@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Color for header -->
-    <color name="colorPrimary">#228B22</color>
+    <color name="colorPrimary">#2e7d32</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorMenu">#FF4081</color>
+    <color name="colorMenuBackground">#558b2f</color>
 </resources>
