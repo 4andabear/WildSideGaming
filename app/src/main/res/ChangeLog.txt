@@ -2,3 +2,8 @@ v.0.0.1 - 5/5/17
 
 Changed text that was a string to a reference link, so customer can easily chnage text in app
 Also, found where the color references are and what parts they change
+
+
+v.0.0.2 - 5/10/17
+
+I have implemented a webview for a live stream, and will not be using the embeded live stream that java can do.
