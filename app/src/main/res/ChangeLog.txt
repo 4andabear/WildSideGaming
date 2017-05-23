@@ -7,3 +7,12 @@ Also, found where the color references are and what parts they change
 v.0.0.2 - 5/10/17
 
 I have implemented a webview for a live stream, and will not be using the embeded live stream that java can do.
+
+v.0.0.3 - 5/12/17
+
+During the previous week, I continued to adjust string reasources, and I was making new XML files, and I got the Live Feed file working, but not intergrated into the app.
+
+
+v.0.0.3 - 5/17/17
+
+During this week I moved onto just working on new XML files for future clas that will be made.  I added in a horizantal scrollview into the app which will display the 5 most recent videos posted by wildsidegaming.  This will allow for the user to see the recent videos, or clips, posted by wildsidegaming.  At this time, I am taking a break as there is a mojor bug with in the code.  I will hopefully continue to edit the code and publish this app with in the next six to nine months.
