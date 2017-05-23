@@ -1,1 +1,6 @@
 5/5/17 - This week I started the app by changing text sources to reference values, the struggle I am having is importing my own images, instead of using the default android drawables.   Next time, I will be developing more of the layout for the various pages, and will start to develop code for the live streaming feature.
+
+5/12/17 - Sorry for the late entry, but it came to my attention that I lost the ablity to commit and push about 2 weeks ago.
+The biggest challenge was being able to get the live stream function to work. I decied to just use a webview of twitch to stream to the app.
+
+5/19/17 - The biggest challenge this week was being able to get the scroll feature on the main page to work. After some reasearch, I realised a scrollview is not the same as a horizantal scroll view.
